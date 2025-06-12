@@ -139,3 +139,27 @@ taskmaster/
 │       └── java/
 │           └── com/equipo/taskmaster/AppTest.java
 ```
+
+---
+
+## Preguntas finales
+
+1. ¿Qué aprendiste sobre el ciclo de vida de Maven?
+
+Maven tiene un orden de pasos muy estructurado para compilar y ejecutar un proyecto. Por lo que logré ver durante la actividad, limpia lo compilado y posteriormente ejecuta o empaqueta según el comando. Simplemente con utilizar los comandos de 'mvn compile' o 'mvn test' hace todo sin necesidad de dar parametros adicionales o pasos extra.
+
+2. ¿Cómo facilita Maven el trabajo en equipo y la reproducibilidad?
+
+Es como lo es Node.js con el archivo 'package.json', todos utilizan en este caso el mismo archivo 'pom.xml' que ya incluye todo lo base del proyecto, las versiones especificas de las dependencias/plugins, configuraciones y datos del proyecto. Evitando muchos conflictos al trabajar de otras maneras.
+
+3. ¿Cuál fue el mayor reto al trabajar con dependencias?
+
+Costó entender un poco como funcionaban las dependencias, a comparación de Node (en este caso), uno puede usar 'npm install' para alguna dependencia, en este caso, al momento de ejecutar el 'mvn test' no me tomó JUnit, tuve que buscar en como se agregaban al pom.xml basado en la indicación anterior y que era necesario el uso de scope.
+
+4. ¿Por qué crees que Maven es tan usado en entornos empresariales?
+
+Se ve que es una manera muy simplificada de ahorrar tiempo, especialmente en la ejecución de aplicativos basados en Java. Automatiza cosas como compilar, ejecutar test e inclusive crear archivos .jar, dejando todo ordenado y estructurado en los directorios.
+
+5. ¿Qué harías diferente si tuvieras que automatizar otro proyecto?
+
+Obviamente utilizar Maven desde el principio, dejar organizado y estructurado los perfiles (en este caso como dev y prod). Y como aún en proceso de aprendizaje, dejar estipulado la ejecución de comandos y paso a paso en un archivo README.
