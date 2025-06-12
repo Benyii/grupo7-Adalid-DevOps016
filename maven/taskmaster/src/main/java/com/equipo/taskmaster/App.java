@@ -7,6 +7,7 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println("¡Bienvenido a TaskMaster!");
+        System.out.println("Ambiente: " + System.getProperty("env.name"));
         addTask("Estudiar Maven");
         addTask("Leer sobre CI/CD");
         printTasks();
