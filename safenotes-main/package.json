@@ -1,0 +1,16 @@
+{
+  "name": "safenotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "test": "echo \"No tests yet\" && exit 0"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^3.0.0"
+  }
+}
