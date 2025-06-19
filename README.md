@@ -1,2 +1,7 @@
-# grupo7-Adalid-DevOps016
-Repositorio para el Bootcamp de Adalid DevOps016 - Grupo 7
+# Grupo 7 Adalid DevOps 16
+
+## 📌 Descripción 
+
+*Repositorio desarrollado como parte de un bootcamp de formación en herramientas DevOps.*
+
+
